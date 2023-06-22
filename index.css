@@ -1,0 +1,378 @@
+body{
+     background-color: rgb(255, 244, 244);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*start title*/
+#line1{
+    background-color:rgb(255, 212, 212);
+    width: 550px;
+    height: 40px;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+#line2{
+    background-color:rgb(252, 219, 33);
+    width: 550px;
+    height: 30px;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+#button1{
+    background-color:rgb(255, 241, 164);
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 82%;
+    left: 20%;
+    border-radius: 30px;
+}
+#txt1{
+font-family: 'Eras Light ITC', sans-serif ;
+font-size: 30px;
+color: black;
+position: absolute;
+top:25%;
+left: 13%;
+}
+
+
+#circle1{
+    background-color:rgb(255, 212, 212);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    border-radius: 300px;
+}
+#circle2{
+    background-color:  rgb(252, 219, 33);
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    border-radius: 300px;
+}
+#circle3{
+    background-color:rgb(255, 212, 212);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 3%;
+    left:40%;
+    border-radius: 300px;
+}
+#circle4{
+    background-color:  rgb(252, 219, 33);
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 5%;
+    left: 41%;
+    border-radius: 300px;
+}
+#title{
+    font-family: 'Felix Titling', sans-serif;
+    color: black;
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    font-size: 50px;
+}
+/*end title*/
+#img1{
+    position: absolute;
+    left:54%;
+}
+#box1{
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 720px;
+    height:776px;
+    position: absolute;
+    left: 54%;
+}
+/*start nav bar*/
+
+nav{
+    height: 90px;
+    position: absolute;
+    left: 53%;
+}
+
+nav ul{
+    margin-right: 20px;
+}
+nav ul li{
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+   
+}
+nav ul li a{
+    color: rgb(255, 254, 254);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-underline-offset: 100%;
+    text-decoration-color: #ffc9c9;
+    
+}         
+.btn{
+    background-color: #ffc9c9;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding:20px 35px;
+    border-radius:25px;
+    transform: .4s;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/*end nav bar*/
+#imgbox1{
+    background-color:rgb(255, 212, 212);
+    width: 250px;
+    height:270px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+}
+#img2{
+    position: absolute;
+    left: 10%;
+    top:40%;
+}
+#imgbox2{
+    background-color:rgb(255, 230, 88);
+    width: 250px;
+    height:270px;
+    position: absolute;
+    top:30%;
+    left: 20%;
+}
+#img3{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+#sloganbox1{
+    background-color:rgb(255, 231, 95);
+    width: 350px;
+    height:150px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
+#sloganbox2{
+    background-color:rgb(255, 212, 212);
+    width: 350px;
+    height:150px;
+    position: absolute;
+    top:58%;
+    left: 69%;
+}
+#text{
+    color: black;
+    position: absolute;
+    top: 63%;
+    left: 72%;
+    font-family:'Felix Titling', sans-serif ;
+    font-size: 20px;
+}
+
+
+#linepg2{
+    background-color:rgb(252, 219, 33);
+    width: 525px;
+    height: 40px;
+    position: absolute;
+    top: 143%;
+    left:33%;
+}
+#text2{
+    position: absolute;
+    top: 140%;
+    left: 38%;
+    font-family:'Felix Titling', sans-serif ;
+    font-size: 47px;
+
+}
+
+
+  #slider {
+    position: relative;
+    width: 70%;
+    height: 32vw;
+    margin: 150px auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    perspective: 1400px;
+    transform-style: preserve-3d;
+    top: 990px;
+    left:-400px ;
+  }
+  
+  input[type=radio] {
+    position: relative;
+    top: 108%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 0 15px 0 0;
+    opacity: 0.4;
+    transform: translateX(-83px);
+    cursor: pointer;
+  }
+  input[type=radio]:nth-child(5) {
+    margin-right: 0px;
+  }
+  
+  input[type=radio]:checked {
+    opacity: 1;
+  }
+  
+  #slider label,
+  #slider label img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 400ms ease;
+  }
+  
+  #s1:checked ~ #slide1,
+   #s2:checked ~ #slide2,
+    #s3:checked ~ #slide3,
+     #s4:checked ~ #slide4,
+      #s5:checked ~ #slide5 {
+    box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+    transform: translate3d(0%, 0, 0px);
+  }
+  
+  #s1:checked ~ #slide2,
+   #s2:checked ~ #slide3,
+    #s3:checked ~ #slide4,
+     #s4:checked ~ #slide5,
+      #s5:checked ~ #slide1 {
+    box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+    transform: translate3d(20%, 0, -100px);
+  }
+  
+  
+  #s1:checked ~ #slide3,
+   #s2:checked ~ #slide4,
+    #s3:checked ~ #slide5,
+     #s4:checked ~ #slide1,
+      #s5:checked ~ #slide2 {
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+    transform: translate3d(40%, 0, -250px);
+  }
+  
+  #s1:checked ~ #slide4,
+   #s2:checked ~ #slide5,
+    #s3:checked ~ #slide1,
+     #s4:checked ~ #slide2,
+      #s5:checked ~ #slide3 {
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+    transform: translate3d(-40%, 0, -250px);
+  }
+  
+  #s1:checked ~ #slide5,
+   #s2:checked ~ #slide1,
+    #s3:checked ~ #slide2,
+     #s4:checked ~ #slide3,
+      #s5:checked ~ #slide4 {
+    box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+    transform: translate3d(-20%, 0, -100px);
+      }
+
+    /*about me page*/
+
+
+    .background{
+        background-color: #ffffff;
+        width: 840px;
+        height: 750px;
+        position: absolute;
+        top: 2000px;
+        left:-15%;
+    }
+    #bx1{
+        background-color:rgb(252, 219, 33);
+        width: 525px;
+        height: 40px;
+        position: absolute;
+        top: 2030px;
+        left: -30%;
+    }
+    #bx2{
+        background-color:#ffc9c9;
+        width: 525px;
+        height: 40px;
+        position: absolute;
+        top: 2035px;
+        left: -29%;
+    }
+    #aboutme{
+        font-family:  'Felix Titling', sans-serif;
+        position: absolute;
+        top:2000px ;
+        left: -18%;
+        font-size: 60px;
+
+    }
+    #square1{
+        background-color:rgb(255, 231, 95);
+        width: 500px;
+        height:350px;
+        position: absolute;
+        top: 2470%;
+        left: 1%;
+    }
+    #square2{
+    background-color:rgb(255, 212, 212);
+    width: 500px;
+    height:340px;
+    position: absolute;
+    top:2250px;
+    left: 5%;
+
+    }
+    #aboutmetxt{
+        font-family:'Eras Light ITC', sans-serif;;
+        position: absolute;
+        top:2300px ;
+        left: 8%;
+        font-size: 25px;
+
+    }
+    #imgabtme{
+        position: absolute;
+        top:2100px ;
+        left:-790px;
+    }
+    
+
+
+   
+
+

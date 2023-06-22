@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(255, 244, 244);
+}
+
+#leftbackgroundcolor{
+    position: absolute;
+    background-color: rgba(255,249,216,255);
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 50%;
+}
+#whitebox{
+    position: absolute;
+    background: white;
+    height: 67%;
+    width: 31%;
+    top: 24%;
+    left: 8%;
+}
+
+
+
+#line1{
+    background-color:rgb(255, 212, 212);
+    width: 570px;
+    height: 40px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+#line2{
+    background-color:rgb(252, 219, 33);
+    width: 570px;
+    height: 30px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+#button1{
+    background-color:rgb(255, 241, 164);
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 82%;
+    left: 20%;
+    border-radius: 30px;
+}
+#txt1{
+font-family: 'Eras Light ITC', sans-serif ;
+font-size: 30px;
+color: black;
+position: absolute;
+top:25%;
+left: 13%;
+}
+
+
+#circle1{
+    background-color:rgb(255, 212, 212);
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 4%;
+    left: 23%;
+    border-radius: 300px;
+}
+#circle2{
+    background-color:  rgb(252, 219, 33);
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+    border-radius: 300px;
+}
+#circle3{
+    background-color:rgb(255, 212, 212);
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 4%;
+    left: 58%;
+    border-radius: 300px;
+}
+#circle4{
+    background-color:  rgb(252, 219, 33);
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    top: 6%;
+    left: 59%;
+    border-radius: 300px;
+}
+#title{
+    font-family: 'Felix Titling', sans-serif;
+    color: black;
+    position: absolute;
+    top: 6%;
+    left: 33%;
+    font-size: 18px;
+}
+#whitecircle1{
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+#whitecircle2{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+#whitecircle3{
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+#nummer1{
+    position: absolute;
+    left: 49%;
+    top: 32%;
+    color:rgb(255, 212, 212);
+    font-size: 60px;
+}
+#nummer2{
+    position: absolute;
+    font-size: 60px;
+    left: 49%;
+    top: 52%;
+    color:rgb(255, 212, 212);
+}
+#nummer3{
+    position: absolute;
+    font-size: 60px;
+    left: 49%;
+    top: 72%;
+    color:rgb(255, 212, 212);
+}
+#whiteline1{
+    position: absolute;
+    height: 40px;
+    width: 760px;
+    top: 34%;
+    left: 50%;
+    background-color: white;
+}
+#whiteline2{
+    position: absolute;
+    height: 40px;
+    width: 760px;
+    top: 54%;
+    left: 50%;
+    background-color: white;
+}
+#whiteline3{
+    position: absolute;
+    height: 40px;
+    width: 760px;
+    top: 74%;
+    left: 50%;
+    background-color: white;
+}
+#rechthoek1{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+#rechthoek2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+#rechthoek3{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+}
+#txtflavor{
+    position: absolute;
+    top: 33%;
+    left: 70%;
+    font-size: 40px;
+    font-family: 'Felix Titling', sans-serif;
+}
+#txtfIlling{
+    position: absolute;
+    top: 53%;
+    left: 70%;
+    font-size: 40px;
+    font-family: 'Felix Titling', sans-serif;
+}
+#txttopping{
+    position: absolute;
+    top: 73%;
+    left: 70%;
+    font-size: 40px;
+    font-family: 'Felix Titling', sans-serif;
+}
+#chocolatetxt{
+    position: absolute;
+    color: rgb(98,52,18);
+    background-color:rgba(255, 212, 212, 0.548);
+    font-size: 23px;
+    top: 40%;
+    left: 53%;
+    font-family: sans-serif;
+}
+#vanilletxt{
+    position: absolute;
+    color: rgb(243,229,171);
+    top: 40%;
+    font-size: 23px;
+    left: 63%;
+}

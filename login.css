@@ -1,0 +1,202 @@
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+  position: relative;
+  right: -10%;
+  height: 0%;
+  width: 30%;
+  top: 120px;
+}
+
+.container2 {
+  padding: 16px;
+  position: relative;
+  left: 60%;
+  height: 0%;
+  width: 30%;
+  top: 90px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffff98ba;
+  border: 40px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+.registerbtn {
+  background-color: #f6e45c;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.title{
+  padding: 0%;
+  position: relative;
+  right: -9%;
+  height: 0px;
+  width: 0px;
+  top: 100px;
+}
+#line1{
+  background-color:rgb(255, 212, 212);
+  width: 500px;
+  height: 40px;
+  position: absolute;
+  top: 18%;
+  left: -15px;
+}
+#line2{
+  background-color:rgb(252, 219, 33);
+  width: 500px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: -15px;
+}
+
+
+#circle1{
+  background-color:rgb(255, 212, 212);
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: -120px;
+  right: -35px;
+  border-radius: 300px;
+}
+#circle2{
+  background-color:  rgb(252, 219, 33);
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -110px;
+  right: -23px;
+  border-radius: 300px;
+}
+#circle3{
+  background-color:rgb(255, 212, 212);
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: -60px;
+  left: 450px;
+  border-radius: 300px;
+}
+#circle4{
+  background-color:  rgb(252, 219, 33);
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  top: -50px;
+  left: 470px;
+  border-radius: 300px;
+}
+#title{
+  font-family: 'Felix Titling', sans-serif;
+  color: black;
+  position: absolute;
+  top: -50px;
+  left: 110px;
+  font-size: 80px;
+}
+
+
+
+
+
+
+.title0{
+  padding: 0%;
+  position: relative;
+  left: 60%;
+  height: 0px;
+  width: 0px;
+  top: 110px;
+}
+#line10{
+  background-color:rgb(255, 212, 212);
+  width: 500px;
+  height: 40px;
+  position: absolute;
+  top: 18%;
+  left: -15px;
+}
+#line20{
+  background-color:rgb(252, 219, 33);
+  width: 500px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: -15px;
+}
+
+
+#circle10{
+  background-color:rgb(255, 212, 212);
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: -80px;
+  right: -35px;
+  border-radius: 300px;
+}
+#circle20{
+  background-color:  rgb(252, 219, 33);
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -70px;
+  right: -23px;
+  border-radius: 300px;
+}
+#circle30{
+  background-color:rgb(255, 212, 212);
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: -110px;
+  left: 450px;
+  border-radius: 300px;
+}
+#circle40{
+  background-color:  rgb(252, 219, 33);
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  top: -100px;
+  left: 470px;
+  border-radius: 300px;
+}
+#title0{
+  font-family: 'Felix Titling', sans-serif;
+  color: black;
+  position: absolute;
+  top: -50px;
+  left: 110px;
+  font-size: 80px;
+}
